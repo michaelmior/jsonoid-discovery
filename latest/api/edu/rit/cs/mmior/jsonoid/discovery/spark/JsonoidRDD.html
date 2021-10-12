@@ -47,13 +47,13 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <span class="name">JsonoidRDD</span><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+        <span class="name">JsonoidRDD</span><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
       </span>
       </h4>
       
           <div id="comment" class="fullcommenttop"><div class="toggleContainer block">
           <span class="toggle">Linear Supertypes</span>
-          <div class="superTypes hiddenContent"><span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
+          <div class="superTypes hiddenContent"><span class="extype" name="scala.Serializable">Serializable</span>, <span class="extype" name="java.io.Serializable">Serializable</span>, <span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
         </div></div>
         
 
@@ -71,7 +71,7 @@
                 <span class="filtertype">Inherited<br />
                 </span>
                 <ol id="linearization">
-                  <li class="in" name="edu.rit.cs.mmior.jsonoid.discovery.spark.JsonoidRDD"><span>JsonoidRDD</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                  <li class="in" name="edu.rit.cs.mmior.jsonoid.discovery.spark.JsonoidRDD"><span>JsonoidRDD</span></li><li class="in" name="scala.Serializable"><span>Serializable</span></li><li class="in" name="java.io.Serializable"><span>Serializable</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
                 </ol>
               </div><div id="ancestors">
             <span class="filtertype"></span>
@@ -91,7 +91,7 @@
         <div id="constructors" class="members">
               <h3>Instance Constructors</h3>
               <ol><li name="edu.rit.cs.mmior.jsonoid.discovery.spark.JsonoidRDD#&lt;init&gt;" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="&lt;init&gt;(rdd:org.apache.spark.rdd.RDD[edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema[_]]):edu.rit.cs.mmior.jsonoid.discovery.spark.JsonoidRDD"></a>
+      <a id="&lt;init&gt;(rdd:org.apache.spark.rdd.RDD[edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema[_]])(impliciter:edu.rit.cs.mmior.jsonoid.discovery.EquivalenceRelation):edu.rit.cs.mmior.jsonoid.discovery.spark.JsonoidRDD"></a>
       <a id="&lt;init&gt;:JsonoidRDD"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -99,10 +99,10 @@
         <span class="kind">new</span>
       </span>
       <span class="symbol">
-        <span class="name">JsonoidRDD</span><span class="params">(<span name="rdd">rdd: <span class="extype" name="org.apache.spark.rdd.RDD">RDD</span>[<a href="../schemas/JsonSchema.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema">JsonSchema</a>[_]]</span>)</span>
+        <span class="name">JsonoidRDD</span><span class="params">(<span name="rdd">rdd: <span class="extype" name="org.apache.spark.rdd.RDD">RDD</span>[<a href="../schemas/JsonSchema.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema">JsonSchema</a>[_]]</span>)</span><span class="params">(<span class="implicit">implicit </span><span name="er">er: <a href="../EquivalenceRelation.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.EquivalenceRelation">EquivalenceRelation</a></span>)</span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../../../../../index.html#edu.rit.cs.mmior.jsonoid.discovery.spark.JsonoidRDD@&lt;init&gt;(rdd:org.apache.spark.rdd.RDD[edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema[_]]):edu.rit.cs.mmior.jsonoid.discovery.spark.JsonoidRDD" title="Permalink" target="_top">
+      <a href="../../../../../../../index.html#edu.rit.cs.mmior.jsonoid.discovery.spark.JsonoidRDD@&lt;init&gt;(rdd:org.apache.spark.rdd.RDD[edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema[_]])(impliciter:edu.rit.cs.mmior.jsonoid.discovery.EquivalenceRelation):edu.rit.cs.mmior.jsonoid.discovery.spark.JsonoidRDD" title="Permalink" target="_top">
         <img src="../../../../../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
@@ -512,7 +512,11 @@
         </div>
 
         <div id="inheritedMembers">
-        <div class="parent" name="scala.AnyRef">
+        <div class="parent" name="scala.Serializable">
+              <h3>Inherited from <span class="extype" name="scala.Serializable">Serializable</span></h3>
+            </div><div class="parent" name="java.io.Serializable">
+              <h3>Inherited from <span class="extype" name="java.io.Serializable">Serializable</span></h3>
+            </div><div class="parent" name="scala.AnyRef">
               <h3>Inherited from <span class="extype" name="scala.AnyRef">AnyRef</span></h3>
             </div><div class="parent" name="scala.Any">
               <h3>Inherited from <span class="extype" name="scala.Any">Any</span></h3>
