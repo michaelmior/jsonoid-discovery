@@ -45,7 +45,7 @@
         <span class="kind">case class</span>
       </span>
       <span class="symbol">
-        <span class="name">MaxIntValueProperty</span><span class="params">(<span name="maxIntValue">maxIntValue: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.BigInt">BigInt</span>] = <span class="symbol">None</span></span>)</span><span class="result"> extends <a href="SchemaProperty.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.SchemaProperty">SchemaProperty</a>[<span class="extype" name="scala.BigInt">BigInt</span>, <a href="" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.MaxIntValueProperty">MaxIntValueProperty</a>] with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+        <span class="name">MaxIntValueProperty</span><span class="params">(<span name="maxIntValue">maxIntValue: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.BigInt">BigInt</span>] = <span class="symbol">None</span></span>, <span name="exclusive">exclusive: <span class="extype" name="scala.Boolean">Boolean</span> = <span class="symbol">false</span></span>)</span><span class="result"> extends <a href="SchemaProperty.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.SchemaProperty">SchemaProperty</a>[<span class="extype" name="scala.BigInt">BigInt</span>, <a href="" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.MaxIntValueProperty">MaxIntValueProperty</a>] with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
       </span>
       </h4>
       
@@ -89,7 +89,7 @@
         <div id="constructors" class="members">
               <h3>Instance Constructors</h3>
               <ol><li name="edu.rit.cs.mmior.jsonoid.discovery.schemas.MaxIntValueProperty#&lt;init&gt;" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="&lt;init&gt;(maxIntValue:Option[BigInt]):edu.rit.cs.mmior.jsonoid.discovery.schemas.MaxIntValueProperty"></a>
+      <a id="&lt;init&gt;(maxIntValue:Option[BigInt],exclusive:Boolean):edu.rit.cs.mmior.jsonoid.discovery.schemas.MaxIntValueProperty"></a>
       <a id="&lt;init&gt;:MaxIntValueProperty"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -97,10 +97,10 @@
         <span class="kind">new</span>
       </span>
       <span class="symbol">
-        <span class="name">MaxIntValueProperty</span><span class="params">(<span name="maxIntValue">maxIntValue: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.BigInt">BigInt</span>] = <span class="symbol">None</span></span>)</span>
+        <span class="name">MaxIntValueProperty</span><span class="params">(<span name="maxIntValue">maxIntValue: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.BigInt">BigInt</span>] = <span class="symbol">None</span></span>, <span name="exclusive">exclusive: <span class="extype" name="scala.Boolean">Boolean</span> = <span class="symbol">false</span></span>)</span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../../../../../index.html#edu.rit.cs.mmior.jsonoid.discovery.schemas.MaxIntValueProperty@&lt;init&gt;(maxIntValue:Option[BigInt]):edu.rit.cs.mmior.jsonoid.discovery.schemas.MaxIntValueProperty" title="Permalink" target="_top">
+      <a href="../../../../../../../index.html#edu.rit.cs.mmior.jsonoid.discovery.schemas.MaxIntValueProperty@&lt;init&gt;(maxIntValue:Option[BigInt],exclusive:Boolean):edu.rit.cs.mmior.jsonoid.discovery.schemas.MaxIntValueProperty" title="Permalink" target="_top">
         <img src="../../../../../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
@@ -239,6 +239,23 @@
       </a>
     </span>
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="edu.rit.cs.mmior.jsonoid.discovery.schemas.MaxIntValueProperty#exclusive" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="exclusive:Boolean"></a>
+      <a id="exclusive:Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">exclusive</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../../index.html#edu.rit.cs.mmior.jsonoid.discovery.schemas.MaxIntValueProperty@exclusive:Boolean" title="Permalink" target="_top">
+        <img src="../../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
     </li><li name="scala.AnyRef#finalize" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="finalize():Unit"></a>
       <a id="finalize():Unit"></a>
@@ -380,7 +397,10 @@
         <img src="../../../../../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.MaxIntValueProperty">MaxIntValueProperty</a> → <a href="SchemaProperty.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.SchemaProperty">SchemaProperty</a></dd></dl></div>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.MaxIntValueProperty">MaxIntValueProperty</a> → <a href="SchemaProperty.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.SchemaProperty">SchemaProperty</a></dd><dt>Annotations</dt><dd>
+                <span class="name">@SuppressWarnings</span><span class="args">()</span>
+              
+        </dd></dl></div>
     </li><li name="edu.rit.cs.mmior.jsonoid.discovery.schemas.SchemaProperty#mergeable" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="mergeable:Boolean"></a>
       <a id="mergeable:Boolean"></a>
