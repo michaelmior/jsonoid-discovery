@@ -45,7 +45,7 @@
         <span class="kind">case class</span>
       </span>
       <span class="symbol">
-        <span class="name">ProductSchemaTypesProperty</span><span class="params">(<span name="schemaTypes">schemaTypes: <span class="extype" name="scala.List">List</span>[<a href="JsonSchema.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema">JsonSchema</a>[_]] = <span class="symbol">List.empty[JsonSchema[_]]</span></span>, <span name="schemaCounts">schemaCounts: <span class="extype" name="scala.List">List</span>[<span class="extype" name="scala.BigInt">BigInt</span>] = <span class="symbol">List.empty[BigInt]</span></span>, <span name="all">all: <span class="extype" name="scala.Boolean">Boolean</span> = <span class="symbol">false</span></span>)</span><span class="params">(<span class="implicit">implicit </span><span name="er">er: <a href="../EquivalenceRelation.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.EquivalenceRelation">EquivalenceRelation</a></span>)</span><span class="result"> extends <a href="SchemaProperty.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.SchemaProperty">SchemaProperty</a>[<a href="JsonSchema.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema">JsonSchema</a>[_], <a href="" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.ProductSchemaTypesProperty">ProductSchemaTypesProperty</a>] with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+        <span class="name">ProductSchemaTypesProperty</span><span class="params">(<span name="baseSchema">baseSchema: <a href="JsonSchema.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema">JsonSchema</a>[_] = <span class="symbol">AnySchema()</span></span>, <span name="schemaTypes">schemaTypes: <span class="extype" name="scala.List">List</span>[<a href="JsonSchema.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema">JsonSchema</a>[_]] = <span class="symbol">List.empty[JsonSchema[_]]</span></span>, <span name="schemaCounts">schemaCounts: <span class="extype" name="scala.List">List</span>[<span class="extype" name="scala.BigInt">BigInt</span>] = <span class="symbol">List.empty[BigInt]</span></span>, <span name="all">all: <span class="extype" name="scala.Boolean">Boolean</span> = <span class="symbol">false</span></span>)</span><span class="params">(<span class="implicit">implicit </span><span name="er">er: <a href="../EquivalenceRelation.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.EquivalenceRelation">EquivalenceRelation</a></span>)</span><span class="result"> extends <a href="SchemaProperty.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.SchemaProperty">SchemaProperty</a>[<a href="JsonSchema.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema">JsonSchema</a>[_], <a href="" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.ProductSchemaTypesProperty">ProductSchemaTypesProperty</a>] with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
       </span>
       </h4>
       
@@ -89,7 +89,7 @@
         <div id="constructors" class="members">
               <h3>Instance Constructors</h3>
               <ol><li name="edu.rit.cs.mmior.jsonoid.discovery.schemas.ProductSchemaTypesProperty#&lt;init&gt;" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="&lt;init&gt;(schemaTypes:List[edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema[_]],schemaCounts:List[BigInt],all:Boolean)(impliciter:edu.rit.cs.mmior.jsonoid.discovery.EquivalenceRelation):edu.rit.cs.mmior.jsonoid.discovery.schemas.ProductSchemaTypesProperty"></a>
+      <a id="&lt;init&gt;(baseSchema:edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema[_],schemaTypes:List[edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema[_]],schemaCounts:List[BigInt],all:Boolean)(impliciter:edu.rit.cs.mmior.jsonoid.discovery.EquivalenceRelation):edu.rit.cs.mmior.jsonoid.discovery.schemas.ProductSchemaTypesProperty"></a>
       <a id="&lt;init&gt;:ProductSchemaTypesProperty"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -97,10 +97,10 @@
         <span class="kind">new</span>
       </span>
       <span class="symbol">
-        <span class="name">ProductSchemaTypesProperty</span><span class="params">(<span name="schemaTypes">schemaTypes: <span class="extype" name="scala.List">List</span>[<a href="JsonSchema.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema">JsonSchema</a>[_]] = <span class="symbol">List.empty[JsonSchema[_]]</span></span>, <span name="schemaCounts">schemaCounts: <span class="extype" name="scala.List">List</span>[<span class="extype" name="scala.BigInt">BigInt</span>] = <span class="symbol">List.empty[BigInt]</span></span>, <span name="all">all: <span class="extype" name="scala.Boolean">Boolean</span> = <span class="symbol">false</span></span>)</span><span class="params">(<span class="implicit">implicit </span><span name="er">er: <a href="../EquivalenceRelation.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.EquivalenceRelation">EquivalenceRelation</a></span>)</span>
+        <span class="name">ProductSchemaTypesProperty</span><span class="params">(<span name="baseSchema">baseSchema: <a href="JsonSchema.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema">JsonSchema</a>[_] = <span class="symbol">AnySchema()</span></span>, <span name="schemaTypes">schemaTypes: <span class="extype" name="scala.List">List</span>[<a href="JsonSchema.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema">JsonSchema</a>[_]] = <span class="symbol">List.empty[JsonSchema[_]]</span></span>, <span name="schemaCounts">schemaCounts: <span class="extype" name="scala.List">List</span>[<span class="extype" name="scala.BigInt">BigInt</span>] = <span class="symbol">List.empty[BigInt]</span></span>, <span name="all">all: <span class="extype" name="scala.Boolean">Boolean</span> = <span class="symbol">false</span></span>)</span><span class="params">(<span class="implicit">implicit </span><span name="er">er: <a href="../EquivalenceRelation.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.EquivalenceRelation">EquivalenceRelation</a></span>)</span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../../../../../index.html#edu.rit.cs.mmior.jsonoid.discovery.schemas.ProductSchemaTypesProperty@&lt;init&gt;(schemaTypes:List[edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema[_]],schemaCounts:List[BigInt],all:Boolean)(impliciter:edu.rit.cs.mmior.jsonoid.discovery.EquivalenceRelation):edu.rit.cs.mmior.jsonoid.discovery.schemas.ProductSchemaTypesProperty" title="Permalink" target="_top">
+      <a href="../../../../../../../index.html#edu.rit.cs.mmior.jsonoid.discovery.schemas.ProductSchemaTypesProperty@&lt;init&gt;(baseSchema:edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema[_],schemaTypes:List[edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema[_]],schemaCounts:List[BigInt],all:Boolean)(impliciter:edu.rit.cs.mmior.jsonoid.discovery.EquivalenceRelation):edu.rit.cs.mmior.jsonoid.discovery.schemas.ProductSchemaTypesProperty" title="Permalink" target="_top">
         <img src="../../../../../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
@@ -199,6 +199,23 @@
       </a>
     </span>
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="edu.rit.cs.mmior.jsonoid.discovery.schemas.ProductSchemaTypesProperty#baseSchema" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="baseSchema:edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema[_]"></a>
+      <a id="baseSchema:JsonSchema[_]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">baseSchema</span><span class="result">: <a href="JsonSchema.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema">JsonSchema</a>[_]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../../index.html#edu.rit.cs.mmior.jsonoid.discovery.schemas.ProductSchemaTypesProperty@baseSchema:edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema[_]" title="Permalink" target="_top">
+        <img src="../../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
     </li><li name="scala.AnyRef#clone" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="clone():Object"></a>
       <a id="clone():AnyRef"></a>
@@ -382,18 +399,18 @@
     </span>
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.ProductSchemaTypesProperty">ProductSchemaTypesProperty</a> → <a href="SchemaProperty.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.SchemaProperty">SchemaProperty</a></dd></dl></div>
     </li><li name="edu.rit.cs.mmior.jsonoid.discovery.schemas.ProductSchemaTypesProperty#mergeWithCount" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="mergeWithCount(count:BigInt,schema:edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema[_],mergeType:edu.rit.cs.mmior.jsonoid.discovery.MergeType)(impliciter:edu.rit.cs.mmior.jsonoid.discovery.EquivalenceRelation):edu.rit.cs.mmior.jsonoid.discovery.schemas.ProductSchemaTypesProperty"></a>
-      <a id="mergeWithCount(BigInt,JsonSchema[_],MergeType)(EquivalenceRelation):ProductSchemaTypesProperty"></a>
+      <a id="mergeWithCount(count:BigInt,schema:edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema[_],mergeType:edu.rit.cs.mmior.jsonoid.discovery.MergeType,otherBase:edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema[_])(impliciter:edu.rit.cs.mmior.jsonoid.discovery.EquivalenceRelation):edu.rit.cs.mmior.jsonoid.discovery.schemas.ProductSchemaTypesProperty"></a>
+      <a id="mergeWithCount(BigInt,JsonSchema[_],MergeType,JsonSchema[_])(EquivalenceRelation):ProductSchemaTypesProperty"></a>
       <h4 class="signature">
       <span class="modifier_kind">
         <span class="modifier"></span>
         <span class="kind">def</span>
       </span>
       <span class="symbol">
-        <span class="name">mergeWithCount</span><span class="params">(<span name="count">count: <span class="extype" name="scala.BigInt">BigInt</span></span>, <span name="schema">schema: <a href="JsonSchema.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema">JsonSchema</a>[_]</span>, <span name="mergeType">mergeType: <a href="../MergeType.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.MergeType">MergeType</a></span>)</span><span class="params">(<span class="implicit">implicit </span><span name="er">er: <a href="../EquivalenceRelation.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.EquivalenceRelation">EquivalenceRelation</a></span>)</span><span class="result">: <a href="" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.ProductSchemaTypesProperty">ProductSchemaTypesProperty</a></span>
+        <span class="name">mergeWithCount</span><span class="params">(<span name="count">count: <span class="extype" name="scala.BigInt">BigInt</span></span>, <span name="schema">schema: <a href="JsonSchema.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema">JsonSchema</a>[_]</span>, <span name="mergeType">mergeType: <a href="../MergeType.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.MergeType">MergeType</a></span>, <span name="otherBase">otherBase: <a href="JsonSchema.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema">JsonSchema</a>[_] = <span class="symbol">AnySchema()</span></span>)</span><span class="params">(<span class="implicit">implicit </span><span name="er">er: <a href="../EquivalenceRelation.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.EquivalenceRelation">EquivalenceRelation</a></span>)</span><span class="result">: <a href="" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.ProductSchemaTypesProperty">ProductSchemaTypesProperty</a></span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../../../../../index.html#edu.rit.cs.mmior.jsonoid.discovery.schemas.ProductSchemaTypesProperty@mergeWithCount(count:BigInt,schema:edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema[_],mergeType:edu.rit.cs.mmior.jsonoid.discovery.MergeType)(impliciter:edu.rit.cs.mmior.jsonoid.discovery.EquivalenceRelation):edu.rit.cs.mmior.jsonoid.discovery.schemas.ProductSchemaTypesProperty" title="Permalink" target="_top">
+      <a href="../../../../../../../index.html#edu.rit.cs.mmior.jsonoid.discovery.schemas.ProductSchemaTypesProperty@mergeWithCount(count:BigInt,schema:edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema[_],mergeType:edu.rit.cs.mmior.jsonoid.discovery.MergeType,otherBase:edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema[_])(impliciter:edu.rit.cs.mmior.jsonoid.discovery.EquivalenceRelation):edu.rit.cs.mmior.jsonoid.discovery.schemas.ProductSchemaTypesProperty" title="Permalink" target="_top">
         <img src="../../../../../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
@@ -496,6 +513,23 @@
       </span>
       </h4><span class="permalink">
       <a href="../../../../../../../index.html#edu.rit.cs.mmior.jsonoid.discovery.schemas.ProductSchemaTypesProperty@schemaTypes:List[edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema[_]]" title="Permalink" target="_top">
+        <img src="../../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="edu.rit.cs.mmior.jsonoid.discovery.schemas.ProductSchemaTypesProperty#schemas" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="schemas:Seq[edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema[_]]"></a>
+      <a id="schemas:Seq[JsonSchema[_]]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">schemas</span><span class="result">: <span class="extype" name="scala.Seq">Seq</span>[<a href="JsonSchema.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema">JsonSchema</a>[_]]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../../index.html#edu.rit.cs.mmior.jsonoid.discovery.schemas.ProductSchemaTypesProperty@schemas:Seq[edu.rit.cs.mmior.jsonoid.discovery.schemas.JsonSchema[_]]" title="Permalink" target="_top">
         <img src="../../../../../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
