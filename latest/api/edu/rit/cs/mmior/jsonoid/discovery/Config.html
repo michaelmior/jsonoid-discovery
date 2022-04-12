@@ -45,7 +45,7 @@
         <span class="kind">case class</span>
       </span>
       <span class="symbol">
-        <span class="name">Config</span><span class="params">(<span name="input">input: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="java.io.File">File</span>] = <span class="symbol">None</span></span>, <span name="writeValues">writeValues: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="java.io.File">File</span>] = <span class="symbol">None</span></span>, <span name="propertySet">propertySet: <a href="schemas/PropertySet.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.PropertySet">PropertySet</a> = <span class="symbol"><span class="name"><a href="schemas/package.html">PropertySets.AllProperties</a></span></span></span>, <span name="equivalenceRelation">equivalenceRelation: <a href="EquivalenceRelation.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.EquivalenceRelation">EquivalenceRelation</a> = <span class="defval" name='<span class="name"><a href="EquivalenceRelations$.html">EquivalenceRelations.KindEquivalenceRelation</a></span>'>...</span></span>, <span name="addDefinitions">addDefinitions: <span class="extype" name="scala.Boolean">Boolean</span> = <span class="symbol">false</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+        <span class="name">Config</span><span class="params">(<span name="input">input: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="java.io.File">File</span>] = <span class="symbol">None</span></span>, <span name="writeValues">writeValues: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="java.io.File">File</span>] = <span class="symbol">None</span></span>, <span name="propertySet">propertySet: <a href="schemas/PropertySet.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.PropertySet">PropertySet</a> = <span class="symbol"><span class="name"><a href="schemas/package.html">PropertySets.AllProperties</a></span></span></span>, <span name="onlyProperties">onlyProperties: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Predef.String">String</span>]] = <span class="symbol">None</span></span>, <span name="equivalenceRelation">equivalenceRelation: <a href="EquivalenceRelation.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.EquivalenceRelation">EquivalenceRelation</a> = <span class="defval" name='<span class="name"><a href="EquivalenceRelations$.html">EquivalenceRelations.KindEquivalenceRelation</a></span>'>...</span></span>, <span name="addDefinitions">addDefinitions: <span class="extype" name="scala.Boolean">Boolean</span> = <span class="symbol">false</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
       </span>
       </h4>
       
@@ -89,7 +89,7 @@
         <div id="constructors" class="members">
               <h3>Instance Constructors</h3>
               <ol><li name="edu.rit.cs.mmior.jsonoid.discovery.Config#&lt;init&gt;" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="&lt;init&gt;(input:Option[java.io.File],writeValues:Option[java.io.File],propertySet:edu.rit.cs.mmior.jsonoid.discovery.schemas.PropertySet,equivalenceRelation:edu.rit.cs.mmior.jsonoid.discovery.EquivalenceRelation,addDefinitions:Boolean):edu.rit.cs.mmior.jsonoid.discovery.Config"></a>
+      <a id="&lt;init&gt;(input:Option[java.io.File],writeValues:Option[java.io.File],propertySet:edu.rit.cs.mmior.jsonoid.discovery.schemas.PropertySet,onlyProperties:Option[Seq[String]],equivalenceRelation:edu.rit.cs.mmior.jsonoid.discovery.EquivalenceRelation,addDefinitions:Boolean):edu.rit.cs.mmior.jsonoid.discovery.Config"></a>
       <a id="&lt;init&gt;:Config"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -97,10 +97,10 @@
         <span class="kind">new</span>
       </span>
       <span class="symbol">
-        <span class="name">Config</span><span class="params">(<span name="input">input: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="java.io.File">File</span>] = <span class="symbol">None</span></span>, <span name="writeValues">writeValues: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="java.io.File">File</span>] = <span class="symbol">None</span></span>, <span name="propertySet">propertySet: <a href="schemas/PropertySet.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.PropertySet">PropertySet</a> = <span class="symbol"><span class="name"><a href="schemas/package.html">PropertySets.AllProperties</a></span></span></span>, <span name="equivalenceRelation">equivalenceRelation: <a href="EquivalenceRelation.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.EquivalenceRelation">EquivalenceRelation</a> = <span class="defval" name='<span class="name"><a href="EquivalenceRelations$.html">EquivalenceRelations.KindEquivalenceRelation</a></span>'>...</span></span>, <span name="addDefinitions">addDefinitions: <span class="extype" name="scala.Boolean">Boolean</span> = <span class="symbol">false</span></span>)</span>
+        <span class="name">Config</span><span class="params">(<span name="input">input: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="java.io.File">File</span>] = <span class="symbol">None</span></span>, <span name="writeValues">writeValues: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="java.io.File">File</span>] = <span class="symbol">None</span></span>, <span name="propertySet">propertySet: <a href="schemas/PropertySet.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.schemas.PropertySet">PropertySet</a> = <span class="symbol"><span class="name"><a href="schemas/package.html">PropertySets.AllProperties</a></span></span></span>, <span name="onlyProperties">onlyProperties: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Predef.String">String</span>]] = <span class="symbol">None</span></span>, <span name="equivalenceRelation">equivalenceRelation: <a href="EquivalenceRelation.html" class="extype" name="edu.rit.cs.mmior.jsonoid.discovery.EquivalenceRelation">EquivalenceRelation</a> = <span class="defval" name='<span class="name"><a href="EquivalenceRelations$.html">EquivalenceRelations.KindEquivalenceRelation</a></span>'>...</span></span>, <span name="addDefinitions">addDefinitions: <span class="extype" name="scala.Boolean">Boolean</span> = <span class="symbol">false</span></span>)</span>
       </span>
       </h4><span class="permalink">
-      <a href="../../../../../../index.html#edu.rit.cs.mmior.jsonoid.discovery.Config@&lt;init&gt;(input:Option[java.io.File],writeValues:Option[java.io.File],propertySet:edu.rit.cs.mmior.jsonoid.discovery.schemas.PropertySet,equivalenceRelation:edu.rit.cs.mmior.jsonoid.discovery.EquivalenceRelation,addDefinitions:Boolean):edu.rit.cs.mmior.jsonoid.discovery.Config" title="Permalink" target="_top">
+      <a href="../../../../../../index.html#edu.rit.cs.mmior.jsonoid.discovery.Config@&lt;init&gt;(input:Option[java.io.File],writeValues:Option[java.io.File],propertySet:edu.rit.cs.mmior.jsonoid.discovery.schemas.PropertySet,onlyProperties:Option[Seq[String]],equivalenceRelation:edu.rit.cs.mmior.jsonoid.discovery.EquivalenceRelation,addDefinitions:Boolean):edu.rit.cs.mmior.jsonoid.discovery.Config" title="Permalink" target="_top">
         <img src="../../../../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
@@ -381,6 +381,23 @@
       </a>
     </span>
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="edu.rit.cs.mmior.jsonoid.discovery.Config#onlyProperties" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="onlyProperties:Option[Seq[String]]"></a>
+      <a id="onlyProperties:Option[Seq[String]]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">onlyProperties</span><span class="result">: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Predef.String">String</span>]]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#edu.rit.cs.mmior.jsonoid.discovery.Config@onlyProperties:Option[Seq[String]]" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
     </li><li name="edu.rit.cs.mmior.jsonoid.discovery.Config#propertySet" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="propertySet:edu.rit.cs.mmior.jsonoid.discovery.schemas.PropertySet"></a>
       <a id="propertySet:PropertySet"></a>
